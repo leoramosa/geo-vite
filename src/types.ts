@@ -18,13 +18,6 @@ export interface InitialState {
   projects: Project[];
 }
 
-export interface FormValues {
-  username: string;
-  asunto: string;
-  message: string;
-  email: string;
-}
-
 export interface FormErrors {
   username?: string;
   asunto?: string;
