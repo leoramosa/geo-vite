@@ -4,6 +4,7 @@ import "./Footertwo.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { IoBookSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -60,6 +61,14 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
+          </div>
+          <div className="libro-reclamaciones">
+            <p>
+              <a href="">
+                <IoBookSharp className="icon" />
+                Libro de reclamaciones
+              </a>
+            </p>
           </div>
           <div className="derechos desktop">
             <p>

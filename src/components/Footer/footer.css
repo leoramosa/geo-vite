@@ -57,12 +57,33 @@
   color: white;
 }
 
+.libro-reclamaciones {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+.libro-reclamaciones p a {
+  display: flex;
+  align-items: center;
+}
+.libro-reclamaciones p .icon {
+  margin-right: 8px;
+  font-size: 25px;
+}
+
 @media only screen and (min-width: 576px) {
   .derechos.mobile {
     display: none;
   }
 }
 @media only screen and (max-width: 576px) {
+  .icon-redes {
+    justify-content: center;
+  }
   .content_info {
     display: initial;
     text-align: center;

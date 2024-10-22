@@ -19,7 +19,7 @@ const NavBar = () => {
     <div>
       <div className="content_navbar">
         <div className="content-nav">
-          <div className="logo">
+          <div className="logo ">
             <NavLink to="/">
               <img src={logoAle} alt="" />
             </NavLink>
@@ -34,26 +34,61 @@ const NavBar = () => {
 
           <ul style={styleMenu}>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/">Inicio</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Inicio
+              </NavLink>
             </li>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/nosotros">Nosotros</NavLink>
+              <NavLink
+                to="/nosotros"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Nosotros
+              </NavLink>
             </li>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/servicios">Servicios</NavLink>
+              <NavLink
+                to="/servicios"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Servicios
+              </NavLink>
             </li>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/proyectos">Proyectos</NavLink>
+              <NavLink
+                to="/proyectos"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Proyectos
+              </NavLink>
             </li>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/geoplay">GeoPlay</NavLink>
+              <NavLink
+                to="/geoplay"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                GeoPlay
+              </NavLink>
             </li>
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/cursos">Cursos</NavLink>
+              <NavLink
+                to="/cursos"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Cursos
+              </NavLink>
             </li>
 
             <li onClick={toggleMenu} className="navevent">
-              <NavLink to="/contacto">Contacto</NavLink>
+              <NavLink
+                to="/contacto"
+                className={({ isActive }) => (isActive ? "current" : "")}
+              >
+                Contacto
+              </NavLink>
             </li>
             <li onClick={toggleMenu}>
               <img src={Close} alt="" width="20" className="menu" />

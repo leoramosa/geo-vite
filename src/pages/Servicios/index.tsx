@@ -1,5 +1,7 @@
 import { useAppContext } from "../../context/AppContext";
 import "./services.css";
+import { FaWhatsapp } from "react-icons/fa";
+
 // Import Swiper React components
 
 function Services() {
@@ -27,8 +29,12 @@ function Services() {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <button className="button-whatsapp" type="button">
-                      <i className="fab fa-whatsapp"></i> {service.buttontype}
+                    <button
+                      className="button-whatsapp flex items-center "
+                      type="button"
+                    >
+                      <FaWhatsapp className="mr-1" />
+                      {service.buttontype}
                     </button>
                   </a>
                 </div>
