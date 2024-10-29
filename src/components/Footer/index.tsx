@@ -64,7 +64,8 @@ const Footer = () => {
           </div>
           <div className="libro-reclamaciones">
             <p>
-              <a href="">
+              <a href="https://forms.gle/Ux5iRqTD72vXGhrWA" target="_blank"
+                rel="noreferrer">
                 <IoBookSharp className="icon" />
                 Libro de reclamaciones
               </a>
@@ -89,18 +90,18 @@ const Footer = () => {
             </p>
           </div>
           <div className="derechos mobile">
-            <p>© Copyright Geoexplo Villavicencio 2021</p>
+            <p>© Copyright Geoexplo Villavicencio 2024</p>
             <p>Todos los derechos reservados</p>
             <p className="diseño">
               Diseñado y desarrollado por{" "}
               <a
                 className="dweb"
-                href="https://leoramos.netlify.app/"
+                href="https://digiltek.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 {" "}
-                Leonardo Ramos
+                Digiltek
               </a>
             </p>
           </div>
