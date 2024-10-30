@@ -4,6 +4,7 @@ import Home from "../Home";
 import About from "../About";
 import Servicios from "../Servicios";
 import Game from "../Game";
+import NotFound from "../NotFound";
 import Projects from "../Projects";
 import Course from "../Course";
 import Contact from "../Contact";
@@ -19,6 +20,7 @@ const AppRoutes = () => {
     { path: "/geoplay", element: <Game /> },
     { path: "/cursos", element: <Course /> },
     { path: "/contacto", element: <Contact /> },
+    { path: "*", element: <NotFound /> },
   ]);
 
   return routes;
